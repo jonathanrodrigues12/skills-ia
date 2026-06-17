@@ -1,0 +1,23 @@
+{
+  "skill_name": "company-standards",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Preciso criar um módulo de 'products' no backend NestJS. Cria os arquivos: entidade, DTO de criação, service e controller completos seguindo os padrões da empresa.",
+      "expected_output": "Quatro arquivos TypeScript: product.entity.ts extendendo EntityBase com tabela snake_case, create-product.dto.ts com class-validator e @ApiProperty, product.service.ts com CRUD completo usando Repository e NotFoundException, product.controller.ts com PoliciesGuard, ApiBearerAuth, ApiTags e todos os decorators de operação/resposta.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Quero criar um componente de listagem de usuários no frontend Next.js. O componente se chama UserList e precisa buscar os usuários da API com TanStack Query. Cria os arquivos seguindo a separação de lógica e visual.",
+      "expected_output": "Dois arquivos em components/(users)/user-list/: index.tsx com 'use client' importando useUserList e retornando JSX, e useUserList.tsx exportando hook com useQuery configurado, sem lógica no arquivo visual.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Cria um formulário de cadastro de clientes com campos: nome, email e telefone. Usa os padrões do projeto para validação e feedback de erro/sucesso.",
+      "expected_output": "Hook useClientForm com schema Zod (nome obrigatório, email válido, telefone opcional), useForm com zodResolver, onSubmit com toast.loading/toast.success/toast.error usando sonner, e JSX usando componentes shadcn/ui Form, FormField, FormItem, FormLabel, FormMessage.",
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+# Claude Code runtime — caches e skills instaladas localmente
+.agents/
+.claude/cache/
+
+# Kilocode / editor tooling
+.kilocode/node_modules/
+
+# Workspace de avaliação de skills (gerado pelo skill-creator, não faz parte do fonte)
+*-workspace/
+
+# macOS
+.DS_Store
+doc.md
