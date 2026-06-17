@@ -1,6 +1,6 @@
-# Going2 — Skills IA
+# Skills IA
 
-Skills do Claude Code com os padrões de desenvolvimento da Going2. Instale em qualquer projeto para que o Claude gere código consistente com a stack e convenções da empresa.
+Skills do Claude Code com padrões de desenvolvimento. Instale em qualquer projeto para que o Claude gere código consistente com a stack e convenções.
 
 ## Skills disponíveis
 
@@ -26,17 +26,17 @@ O [skills.sh](https://skills.sh) é um marketplace de skills para agentes de IA.
 
 **Backend (NestJS)**
 ```bash
-npx skills add Going2Custom/skills-ia/nestjs-standards
+npx skills add jonathanrodrigues12/skills-ia/nestjs-standards
 ```
 
 **Frontend (Next.js)**
 ```bash
-npx skills add Going2Custom/skills-ia/nextjs-standards
+npx skills add jonathanrodrigues12/skills-ia/nextjs-standards
 ```
 
 **Ambos (pacote completo)**
 ```bash
-npx skills add Going2Custom/skills-ia/company-standards
+npx skills add jonathanrodrigues12/skills-ia/company-standards
 ```
 
 ---
@@ -45,17 +45,17 @@ npx skills add Going2Custom/skills-ia/company-standards
 
 **Backend (NestJS)**
 ```bash
-claude skill install https://raw.githubusercontent.com/Going2Custom/skills-ia/main/nestjs-standards/SKILL.md
+claude skill install https://raw.githubusercontent.com/jonathanrodrigues12/skills-ia/main/nestjs-standards/SKILL.md
 ```
 
 **Frontend (Next.js)**
 ```bash
-claude skill install https://raw.githubusercontent.com/Going2Custom/skills-ia/main/nextjs-standards/SKILL.md
+claude skill install https://raw.githubusercontent.com/jonathanrodrigues12/skills-ia/main/nextjs-standards/SKILL.md
 ```
 
 **Ambos (pacote completo)**
 ```bash
-claude skill install https://raw.githubusercontent.com/Going2Custom/skills-ia/main/company-standards/SKILL.md
+claude skill install https://raw.githubusercontent.com/jonathanrodrigues12/skills-ia/main/company-standards/SKILL.md
 ```
 
 ---

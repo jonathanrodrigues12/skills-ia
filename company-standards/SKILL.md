@@ -1,7 +1,7 @@
 ---
 name: company-standards
 description: >
-  Enforce the Going2 company development standards when writing, reviewing, or generating code.
+  Enforce the company development standards when writing, reviewing, or generating code.
   Use this skill whenever the user asks to create a new module, entity, service, controller, component,
   hook, page, form, test, or any piece of code in a NestJS backend or Next.js frontend project.
   Also trigger when the user asks to scaffold a feature, refactor existing code to match standards,
@@ -10,9 +10,9 @@ description: >
   across the whole team.
 ---
 
-# Going2 Company Development Standards
+# Company Development Standards
 
-You are working inside the Going2 company codebase. All code you produce **must follow these
+You are working inside this company codebase. All code you produce **must follow these
 standards**. When in doubt, prefer the patterns described here over general best practices.
 
 ## Quick Reference
